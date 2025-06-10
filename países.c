@@ -36,7 +36,7 @@ char estado2 = "Riodejaneiro" [15]; //Riodejaneiro
 
     //Dados da carta
     
-    printf("Comparação das cartas: %s (Numero_habitantes %d):\n", numero_habitantes);
+    printf("Comparação das cartas: %s &Numero_habitantes %d:\n", numero_habitantes);
     printf("Carta - %s (%s) %d\n", "nome1", "estado1", "valor1");
     printf("Carta - %s (%s) %d\n", "nome2, estado2, valor2");
 
