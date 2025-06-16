@@ -22,7 +22,7 @@ char estado2 = "Riodejaneiro" [15]; //Riodejaneiro
     
     // Calculo de densidade Populacional e PIB per capita
   
-    float densidade1 =  numero_habitantes / areaTotal;
+    float densidade1 = numero_habitantes / areaTotal;
     float densidade = numero_habitantes2 / areaTotal2;
 
     float pib_per_capita1 = pib1 / numero_habitantes;
