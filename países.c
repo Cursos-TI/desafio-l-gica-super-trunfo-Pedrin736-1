@@ -26,7 +26,7 @@ char estado2 = "Riodejaneiro" [15]; //Riodejaneiro
     float densidade = numero_habitantes2 / areaTotal2;
 
     float pib_per_capita1 = pib1 / numero_habitantes;
-    float pib_per_capita = pib2 /  numero_habitantes2;
+    float pib_per_capita2 = pib2 /  numero_habitantes2;
 
    // Atributo para comparacao (numero_habitantes)
    
