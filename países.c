@@ -31,6 +31,7 @@ char estado2 = "Riodejaneiro" [15]; //Riodejaneiro
    // Atributo para comparacao (numero_habitantes)
    
     int numero_habitantes;
+    int numero_habitantes2;
     int valor1 = 200000;
     int valor2 = 4000; 
 
