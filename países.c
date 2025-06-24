@@ -20,7 +20,7 @@ int c;
  float areaTotal2 = 20.000;
  float pib2 = 500.000;
  int  pontos_turisticos2 = 23; // 23
- int c;
+ 
     
     // Calculo de densidade Populacional e PIB per capita
   
@@ -32,10 +32,12 @@ int c;
 
    // Atributo para comparacao (numero_habitantes)
    
-    int populacao;
+    int populacao = 200000;
     while ((c = getchar()) != '\n' && c != EOF); // Este loop consome o restante da linha no buffer
     
-    int populacao2;
+    int populacao2 = 4000;
+    while ((c = getchar()) != '\n' && c != EOF); // Este loop consome o restante da linha no buffer
+    
     int valor1 = 200000;
     int valor2 = 4000; 
 
