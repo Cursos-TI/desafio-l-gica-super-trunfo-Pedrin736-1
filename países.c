@@ -10,15 +10,17 @@ int populacao = 200000; //200000
 float areaTotal = 2000.000;
 float pib1 = 5000.0000;
 int pontos_turisticos1 = 50; // 50
+int c
  
  // variaveis carta 2
-char estado2 = "Riodejaneiro" [15]; //Riodejaneiro
+ char estado2 = "Riodejaneiro" [15]; //Riodejaneiro
  char codigo2 = "B02" [7]; // B02
  char nomeCidade2 = "Queimados" [20]; // Queimados
  int populacao2 = 4000; // 40000
  float areaTotal2 = 20.000;
  float pib2 = 500.000;
  int  pontos_turisticos2 = 23; // 23
+ int c
     
     // Calculo de densidade Populacional e PIB per capita
   
@@ -31,6 +33,8 @@ char estado2 = "Riodejaneiro" [15]; //Riodejaneiro
    // Atributo para comparacao (numero_habitantes)
    
     int populacao;
+    while ((c = getchar()) != '\n' && c != EOF); // Este loop consome o restante da linha no buffer
+    
     int populacao2;
     int valor1 = 200000;
     int valor2 = 4000; 
