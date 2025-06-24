@@ -10,7 +10,7 @@ int populacao = 200000; //200000
 float areaTotal = 2000.000;
 float pib1 = 5000.0000;
 int pontos_turisticos1 = 50; // 50
-int c
+int c;
  
  // variaveis carta 2
  char estado2 = "Riodejaneiro" [15]; //Riodejaneiro
@@ -20,7 +20,7 @@ int c
  float areaTotal2 = 20.000;
  float pib2 = 500.000;
  int  pontos_turisticos2 = 23; // 23
- int c
+ int c;
     
     // Calculo de densidade Populacional e PIB per capita
   
