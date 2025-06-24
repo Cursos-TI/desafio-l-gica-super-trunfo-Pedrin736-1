@@ -32,18 +32,18 @@ int c;
 
    // Atributo para comparacao (numero_habitantes)
    
-    int populacao = 200000;
+    float pib1;
     while ((c = getchar()) != '\n' && c != EOF); // Este loop consome o restante da linha no buffer
     
-    int populacao2 = 4000;
+    float pib2;
     while ((c = getchar()) != '\n' && c != EOF); // Este loop consome o restante da linha no buffer
     
-    int valor1 = 200000;
-    int valor2 = 4000; 
+    int valor1 = 5000.0000;
+    int valor2 = 500.000; 
 
     //Dados da carta
     
-    printf("Comparação das cartas: %s populacao %d:\n", populacao);
+    printf("Comparação das cartas: %s pib %f:\n", pib1, pib2);
     printf("Carta - %s (%s) %d\n", "nome1", "estado1", "valor1");
     printf("Carta - %s (%s) %d\n", "nome2, estado2, valor2");
 
