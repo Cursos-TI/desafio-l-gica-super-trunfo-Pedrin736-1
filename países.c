@@ -38,9 +38,9 @@ int c;
 
     //Dados da carta
     
-    printf("Comparação das cartas: %f pib %f:\n", pib1, pib2 );
-    printf("Carta1 - %s (%s) %d\n", "nome1, estado1, valor1");
-    printf("Carta2 - %s (%s) %d\n", "nome2, estado2, valor2");
+    printf("Comparação das cartas: %s pib %d\n", pib1, pib2 );
+    printf("Carta1 - %s (%s) %d\n", "Salvador, Bahia, 5000.000");
+    printf("Carta2 - %s (%s) %d\n", "Queimados, Riodejaneiro, 500.000");
 
     if(valor1 > valor2){
       printf("Resultado: Carta1 (%s) venceu!\n", "Bahia");
