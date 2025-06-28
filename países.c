@@ -31,13 +31,8 @@ int c;
     float pib_per_capita2 = pib2 /  populacao2;
 
    // Atributo para comparacao (numero_habitantes)
-   
-    float pib1;
-    while ((c = getchar()) != '\n' && c != EOF); // Este loop consome o restante da linha no buffer
-    
-    float pib2;
-    while ((c = getchar()) != '\n' && c != EOF); // Este loop consome o restante da linha no buffer
-    
+
+    float pib;
     int valor1 = 5000.0000;
     int valor2 = 500.000; 
 
