@@ -38,7 +38,7 @@ int c;
 
     //Dados da carta
     
-    printf("Comparação das cartas: %s pib %d\n", pib1, pib2 );
+    printf("Comparação das cartas: %s pib1 e pib2: \n" );
     printf("Carta1 - %s (%s) %d\n", "Salvador, Bahia, 5000.000");
     printf("Carta2 - %s (%s) %d\n", "Queimados, Riodejaneiro, 500.000");
 
