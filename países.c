@@ -8,7 +8,7 @@ char codigo = "A01" [7]; //A01
 char nomeCidade = "Salvador" [50]; //Salvador
 int populacao = 200000; //200000 
 float areaTotal = 2000.000;
-float pib1 = 5000.0000;
+float pib1 = 5000.000;
 int pontos_turisticos1 = 50; // 50
 int c;
  
@@ -30,15 +30,15 @@ int c;
     float pib_per_capita1 = pib1 / populacao;
     float pib_per_capita2 = pib2 /  populacao2;
 
-   // Atributo para comparacao (numero_habitantes)
+   // Atributo para comparacao (PIB1 e PIB2)
 
     float pib;
-    int valor1 = 5000.0000;
+    int valor1 = 5000.000;
     int valor2 = 500.000; 
 
     //Dados da carta
     
-    printf("Comparação das cartas: %s pib %f:\n");
+    printf("Comparação das cartas: %f pib %f:\n", pib1, pib2 );
     printf("Carta1 - %s (%s) %d\n", "nome1, estado1, valor1");
     printf("Carta2 - %s (%s) %d\n", "nome2, estado2, valor2");
 
